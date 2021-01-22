@@ -21,7 +21,7 @@ https://www.todaybing.com
 <?php
 // 网站的一些基础设置
 $webConfig = array(
-    'siteurl' => '',    // 网站网址如：https://www.todaybing.com
+    'siteurl' => '',    // 网站网址
     'sitename' => '',    // 网站名称
     'slogan' => '',    // 网站口号 
     'keywords' => '',//关键词
@@ -29,13 +29,13 @@ $webConfig = array(
 	'copyright' => '',//版权信息
 	'beian' => '',///备案号
 );
-//在open.lylares.com新申请的AppKey或者以前申请的旧的AppId，配置其中一个即可
+//不可用了
 $AppKey='';
 $AppId='';
 //
 
 /*七牛云配置*/
-//七牛云bucket空间根域名 ,例如：https://www.todaybing.com/
+//七牛云bucket空间根域名 ,
 $qnurl = '';
 //七牛云accessKey 
 $accessKey = '';
